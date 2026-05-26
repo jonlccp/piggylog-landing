@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>PiggyLog — A money diary for kids, built for families</title>
+
+    <meta
+      name="description"
+      content="PiggyLog is an offline money diary for kids ages 8 and up. Spend / Save / Give buckets, parent oversight, no ads, no tracking, no servers. Coming soon to Amazon Appstore and Google Play."
+    />
+
+    <!-- Theme color matches the app's brand pink. iOS Safari uses this
+         for the address-bar tint when the page is added to home screen. -->
+    <meta name="theme-color" content="#FF6FA5" />
+
+    <!-- Open Graph for social-share preview. The og:image is the app
+         icon at 1024² — gives a clean square preview without needing
+         a custom social card yet. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PiggyLog — A money diary for kids" />
+    <meta
+      property="og:description"
+      content="Offline-first kid money tracker. Spend / Save / Give buckets, parent oversight, no ads, no tracking."
+    />
+    <meta property="og:image" content="icon.png" />
+
+    <!-- PNG favicon — modern browsers accept this; older ones will
+         simply skip it (no .ico fallback yet, low priority for a
+         pre-launch page). -->
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          class="logo"
+          src="icon.png"
+          alt=""
+          width="56"
+          height="56"
+          aria-hidden="true"
+        />
+        <span class="wordmark">PiggyLog</span>
+      </header>
+
+      <main>
+        <section class="hero">
+          <h1>
+            A money diary for kids,<br />
+            <span class="accent">built for families.</span>
+          </h1>
+          <p>
+            PiggyLog is an offline-first allowance and spending tracker
+            for kids ages 8 and up. Money is split into three buckets
+            &mdash; <strong>Spend</strong>, <strong>Save</strong>,
+            <strong>Give</strong> &mdash; so kids see where every dollar
+            goes. Parents stay in the loop without taking over.
+          </p>
+          <div class="coming-soon">
+            <span class="dot" aria-hidden="true"></span>
+            <span>Coming soon to Amazon Appstore &amp; Google Play</span>
+          </div>
+        </section>
+
+        <div class="pip-wrap">
+          <!-- Pip the (placeholder) mascot. See
+               apps/mobile/assets/design/pip-idle.svg for the source. -->
+          <img src="pip.png" alt="Pip the pig mascot" width="140" height="140" />
+        </div>
+
+        <section class="features" aria-label="What PiggyLog does">
+          <article class="card spend">
+            <div class="icon" aria-hidden="true">
+              <!-- Phosphor ShoppingBag (bold). Inline SVG — no external
+                   icon library, the landing page stays self-contained. -->
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 256 256"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M216,72H180a52,52,0,0,0-104,0H40A16,16,0,0,0,24,88V200a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V88A16,16,0,0,0,216,72ZM128,36a36,36,0,0,1,36,36H92A36,36,0,0,1,128,36Zm88,164a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V88H76v20a8,8,0,0,0,16,0V88h72v20a8,8,0,0,0,16,0V88h36Z"
+                />
+              </svg>
+            </div>
+            <h3>Spend with intent</h3>
+            <p>
+              Every purchase lands in a bucket. Kids see what they have to
+              spend before they spend it.
+            </p>
+          </article>
+
+          <article class="card save">
+            <div class="icon" aria-hidden="true">
+              <!-- Phosphor PiggyBank (bold) -->
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 256 256"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M152,112a8,8,0,0,1-8,8H120a8,8,0,0,1,0-16h24A8,8,0,0,1,152,112Zm96,16v32a16,16,0,0,1-16,16h-9.69a87.39,87.39,0,0,1-22.06,32.18A8,8,0,0,1,184,224H160a8,8,0,0,1-7.95-7.16A8.21,8.21,0,0,1,152,216v-2.32a87.87,87.87,0,0,1-48,0V216a8,8,0,0,1-.05.84A8,8,0,0,1,96,224H72a8,8,0,0,1-5.33-2A88.4,88.4,0,0,1,42.84,184H32a16,16,0,0,1-16-16V128a8,8,0,0,1,12.8-6.4l11.27,8.45A88.17,88.17,0,0,1,88,72.15V40A16,16,0,0,1,114.34,27.7l25.42,21.18A87.5,87.5,0,0,1,168,56h53.07a8,8,0,0,1,6,2.71L246.93,80.4A16,16,0,0,1,250.31,96l-5.21,17.36A15.86,15.86,0,0,1,232,124.81V128Zm-16,0H224a8,8,0,0,1-8-8v-8a8,8,0,0,1,8-8h.81L229.65,88.7,221.07,72H168a72.07,72.07,0,0,0-25.7,4.71l-1.55.6L104.81,46.59A.32.32,0,0,0,104.5,46.7L88,40v37.45a72,72,0,0,0-29.74,55.39,8,8,0,0,1-15.31,2.66L32,123.5V168H48a8,8,0,0,1,7.59,5.47A72.41,72.41,0,0,0,72,200.94V184a8,8,0,0,1,16,0v22.81a71.86,71.86,0,0,0,16,3.31V200a8,8,0,0,1,16,0v10.12a71.86,71.86,0,0,0,16-3.31V184a8,8,0,0,1,16,0v17a72.06,72.06,0,0,0,25-31.49,8,8,0,0,1,7.45-5.07h12.55Z"
+                />
+              </svg>
+            </div>
+            <h3>Save toward a goal</h3>
+            <p>
+              Kids pick what they're saving for &mdash; a Lego set, a bike
+              &mdash; and watch the bar fill. We celebrate every milestone.
+            </p>
+          </article>
+
+          <article class="card give">
+            <div class="icon" aria-hidden="true">
+              <!-- Phosphor HandHeart (bold) -->
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 256 256"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M178.43,80c10,0,19.46,3.55,26.5,10A8,8,0,0,0,217.78,79.27,55.46,55.46,0,0,0,180.46,64h-.27c-15.13.07-29.94,6.7-41.7,18.69-13.34-13.59-30.43-20.7-48.67-20.27A55.34,55.34,0,0,0,52.31,79.27,8,8,0,0,0,65.07,90C72.11,83.55,81.6,80,91.57,80c14.55,0,28.61,7.37,38.52,20.21a8,8,0,0,0,12.71,0c9.66-12.51,23.42-19.83,37.71-20.2ZM240,144H180.94a23.93,23.93,0,0,0-7.27-11.31L132,93.79a8,8,0,0,0-10.7,11.92l37,32.31a8,8,0,0,1-5.06,14H88.42a39.86,39.86,0,0,0-28.28,11.72L33.37,190.06A8,8,0,0,0,32,200v40a8,8,0,0,0,8,8H184a8,8,0,0,0,7-4.16l52.93-96.18A8,8,0,0,0,240,144Zm-60.71,88H48V203.31l23.45-23.45A24,24,0,0,1,88.42,168h64.83a23.85,23.85,0,0,0,23.16-18l49.74-.13Z"
+                />
+              </svg>
+            </div>
+            <h3>Give back</h3>
+            <p>
+              The Give bucket teaches generosity from the start. A portion
+              of every earning is theirs to share &mdash; their choice
+              where.
+            </p>
+          </article>
+        </section>
+
+        <section class="privacy-callout" aria-labelledby="privacy-heading">
+          <h2 id="privacy-heading">
+            <span class="lock" aria-hidden="true">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 256 256"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M208,80H176V56a48,48,0,0,0-96,0V80H48A16,16,0,0,0,32,96V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM96,56a32,32,0,0,1,64,0V80H96ZM208,208H48V96H208V208Z"
+                />
+              </svg>
+            </span>
+            Privacy by design
+          </h2>
+          <ul>
+            <li>
+              <b>Offline-only.</b> Nothing leaves the device. We don't have
+              servers in v1.
+            </li>
+            <li>
+              <b>No ads, no trackers.</b> No third-party analytics. No
+              attribution SDKs. Nothing.
+            </li>
+            <li>
+              <b>COPPA-aware.</b> Built for kids 8+ with parental setup,
+              easy deletion, no social features.
+            </li>
+            <li>
+              <b>Open about it.</b> The full policy is plain English, no
+              legalese.
+            </li>
+          </ul>
+          <a class="privacy-link" href="privacy.html">Read the privacy policy</a>
+        </section>
+      </main>
+
+      <footer>
+        <div>
+          <a href="privacy.html">Privacy</a> &nbsp;&middot;&nbsp;
+          <a href="mailto:piggylog.app@gmail.com">piggylog.app@gmail.com</a>
+        </div>
+        <div class="made-with">Made with care for families.</div>
+      </footer>
+    </div>
+  </body>
+</html>
